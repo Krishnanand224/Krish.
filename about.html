@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World biggest univesity</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+   
+</head>
+
+<body>
+    <!----header----->
+    <section class="sub-header">
+        <nav>
+            <div>
+                <a href="index.html"><img src="logo.png" class="logo"></a>
+            </div>
+            <div class="menu" id="mMenu">
+                <i class="fi bi-x" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <div class="icon-1">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </ul>
+            </div>
+            <i class="fi menu-icon bi-list" onclick="showMenu()"></i>
+
+            <div class="icon">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+        </nav>
+      <h1>About Us</h1>
+    </section>
+
+
+     <!-----about us content---->
+     <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The World Biggest University</h1>
+                <p>Making website is now one of the esiest thind in the World.You just need to learn HTML,
+                    CSS,Javascript and you good to go.<br>Making website is now one of the esiest thind in the World.You
+                    just need to learn HTML</p>
+                    <a href="" class="about-btn">EXPLORE MORE</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+        </div>
+     </section>
+
+    
+      
+           <!-----footer---->
+           <section class="footer">
+            <h4>About Us</h4>
+            <p>Making website is now one of the esiest thind in the World.You just need to learn HTML,
+                CSS,Javascript and you good to go.<br>Making website is now one of the esiest thind in the World.You
+                just need to learn HTML
+                </p>
+                <div class="icons">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-linkedin"></i>
+
+                </div>
+                <p>Made with  <i class="bi bi-heart  heart"></i> by krish </p>
+           </section>
+
+
+
+    <script>
+
+        let mMenu = document.getElementById("mMenu")
+        function closeMenu() {
+            mMenu.style.width = "0"
+        }
+        function showMenu() {
+            mMenu.style.width = "200px"
+        }
+    </script>
+</body>
+
+</html>
